@@ -1,13 +1,15 @@
 # Guardion - AI Firewall SDK
 
-Guardion is a lightning-fast, context-aware AI Firewall SDK, built to protect LLM-based systems from prompt injection and misuse. Seamlessly integrates with leading agent frameworks.
+Guardion is a **lightning-fast, context-aware AI Firewall SDK**, built to protect LLM-based systems from prompt injection and misuse. Seamlessly integrates with leading agent frameworks.
 
-In the background, Guardion uses a robust Prompt Defense System developed by the GuardionAI research team. Our production-grade detection engine, [ModernGuard](https://docs.guardion.ai/modern-guard), continuously evaluates threats using a multilayered architecture of classifiers, heuristics, and decoding pipelines.
+In the background, Guardion uses a robust **Prompt Defense System** developed by the GuardionAI research team. Our production-grade detection engine, [ModernGuard](https://docs.guardion.ai/modern-guard), continuously evaluates threats using a multilayered architecture of classifiers, heuristics, and decoding pipelines.
+
+✅ **Tested and proven in production by major financial institutions.**  
 
 ## 🔬 Benchmarks
 
 ### Detection Performance
-> Multilingual prompt injection evaluation for finance and e-commerce domains.
+Multilingual prompt injection evaluation for finance and e-commerce domains.
 
 | Model                                                  | Overall F1-Score |
 |--------------------------------------------------------|------------------|
@@ -18,15 +20,21 @@ In the background, Guardion uses a robust Prompt Defense System developed by the
 | meta-llama/Prompt-Guard-2-86M                           | 0.4555           |
 | jackhhao/jailbreak-classifier                          | 0.5000           |
 
-> *Tested on a multilingual, multi-attack dataset of 50K prompts with 40+ attack classes in 8 languages. [More info here](https://docs.guardion.ai/modern-guard)
+**Notes**
+> Tested on a multilingual, multi-attack dataset of 50K prompts with 40+ attack classes in 8 languages.
+
+> Evaluation data was built using real-world red team data from partners and the latest jailbreak and attack methods, [more info here](https://docs.guardion.ai/modern-guard).
+
+> Here are the threat category tested: encoding, prompt injection, jailbreaking, exfiltration & leakage, evasion & obfuscation, code and command injection, hard negatives (safe content), regular documents (safe content), regular chats (safe content).
+
+> None of the evaluation data was seen by ModernGuard during training. However, indirect leakage cannot be ruled out. We do not have visibility into whether other models were trained on this data.
+
+
 
 ## Features
 ✅ Plug-and-play SDK for popular agent and LLM frameworks
-
 🛡️ Real-time prompt inspection
-
 🔍 Customizable detectors and security policies
-
 🚀 Optimized for low latency and high throughput
 
 ## How to use?
