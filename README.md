@@ -1,6 +1,6 @@
 # Guardion - AI Firewall SDK
 
-Guardion is a **lightning-fast, context-aware AI Firewall SDK**, built to protect LLM-based systems from prompt injection and misuse. Seamlessly integrates with leading agent frameworks.
+Guardion is a **lightning-fast, context-aware AI Firewall SDK**, built to protect LLM-based systems from prompt attacks and misuse. Seamlessly integrates with leading agent frameworks.
 
 In the background, Guardion uses a robust **Prompt Defense System** developed by the GuardionAI research team. Our production-grade detection engine, [ModernGuard](https://docs.guardion.ai/modern-guard), continuously evaluates threats using a multilayered architecture of classifiers, heuristics, and decoding pipelines.
 
