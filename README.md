@@ -26,9 +26,13 @@ Multilingual prompt injection evaluation for finance and e-commerce domains.
 > Evaluation data was built using real-world red team data from partners and the latest jailbreak and attack methods, including: encoding, prompt injection, jailbreaking, exfiltration & leakage, evasion & obfuscation, code and command injection, hard negatives (safe content), regular documents (safe content), regular chats (safe content), and more. [See more details here](https://docs.guardion.ai/modern-guard).
 
 ## Features
+
 ✅ Plug-and-play SDK for popular agent and LLM frameworks
+
 🛡️ Real-time prompt inspection
+
 🔍 Customizable detectors and security policies
+
 🚀 Optimized for low latency and high throughput
 
 ## How to use?
