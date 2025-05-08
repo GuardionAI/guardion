@@ -42,7 +42,7 @@ First, get an API Key at [GuardionAI Console](https://guardion.ai).
 And store at the env var `GUARDIONAI_API_KEY`.
 
 ```bash
-export GUARDIONAI_API_KEY=yout-api-key
+export GUARDIONAI_API_KEY=your-api-key
 ```
 
 ### OpenAI Agents SDK
