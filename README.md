@@ -9,7 +9,7 @@ In the background, Guardion uses a robust **Prompt Defense System** developed by
 ## 🔬 Benchmarks
 
 ### Detection Performance
-Multilingual prompt injection evaluation for finance and e-commerce domains.
+Multilingual prompt attack evaluation for finance and e-commerce domains.
 
 | Model                                                  | Overall F1-Score |
 |--------------------------------------------------------|------------------|
