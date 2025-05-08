@@ -23,13 +23,7 @@ Multilingual prompt injection evaluation for finance and e-commerce domains.
 **Notes**
 > Tested on a multilingual, multi-attack dataset of 50K prompts with 40+ attack classes in 8 languages.
 
-> Evaluation data was built using real-world red team data from partners and the latest jailbreak and attack methods, [more info here](https://docs.guardion.ai/modern-guard).
-
-> Here are the threat category tested: encoding, prompt injection, jailbreaking, exfiltration & leakage, evasion & obfuscation, code and command injection, hard negatives (safe content), regular documents (safe content), regular chats (safe content).
-
-> None of the evaluation data was seen by ModernGuard during training. However, indirect leakage cannot be ruled out. We do not have visibility into whether other models were trained on this data.
-
-
+> Evaluation data was built using real-world red team data from partners and the latest jailbreak and attack methods, including: encoding, prompt injection, jailbreaking, exfiltration & leakage, evasion & obfuscation, code and command injection, hard negatives (safe content), regular documents (safe content), regular chats (safe content), and more. [See more details here](https://docs.guardion.ai/modern-guard).
 
 ## Features
 ✅ Plug-and-play SDK for popular agent and LLM frameworks
